@@ -1,0 +1,120 @@
+body {
+    background-color: rgba(247, 247, 253, 0.993);
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-stretch: expanded;
+    font-style: oblique;
+    padding: 0;
+    margin: 0 auto;
+
+}
+header {
+    background-color: rgb(130, 188, 226);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+}
+.main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+img.logo {
+    float:left;
+    flex: 2;
+}
+h1{
+    flex: 5;
+    text-align: center; 
+}
+nav {    
+    background-color: rgb(216, 29, 29);
+    width: 100%;
+    height: 50px;
+    border-style: solid;
+    border-color: rgb(241, 221, 102);
+    border-bottom-width: 20px;
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+.info {
+    text-align: center;
+    flex-direction: row;
+}
+.a-1{
+    flex: 30%;
+    text-align: center;
+
+}
+.a-2{
+    flex: 30%;
+    text-align: center;
+}
+.a-3{
+    flex: 30%;
+    text-align: center;
+}
+.box-1 {
+    flex: 1;
+    background-color: rgb(216, 29, 29);
+    width: 20%;
+    padding:10px;
+}
+.box-2 {
+    flex: 6;
+    padding-left: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.two {
+    background-color: rgb(245, 248, 250);
+    margin: 25px;
+}
+.love-1 {
+    text-align: center;
+}
+
+table {
+    border: 1px solid grey;
+ }
+ th {
+    border: 1px solid grey;
+ }
+ td {
+    border: 1px solid grey;
+ }
+.tab {
+     background-color: rgb(253, 249, 249);
+ }
+.three {
+    background-color: rgb(253, 249, 249);
+
+}
+
+.dom {
+    background-color: rgba(138, 172, 247, 0.699);
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+}
+.stress {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 500px) {
+    .stress {
+        flex-direction: row;
+    }
+    .tab {
+        order: 2;
+    }
+    .three {
+        order: 1;
+    }
+}
